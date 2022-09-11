@@ -1,5 +1,3 @@
-from tkinter import image_names
-
 
 try:
     print("Packages Importing...")
