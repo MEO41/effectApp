@@ -53,6 +53,7 @@ while True:
     elif cv2.waitKey(1) & 0xFF == ord('g'):
         gray = cv2.cvtColor(img_temp,    cv2.COLOR_BGR2GRAY)     
         cv2.imshow("Gray", gray)
+    # saved the image when press s    
     elif cv2.waitKey(1) & 0xFF == ord('s'):
             try:
                 cv2.imwrite(img_name,gray)
