@@ -42,7 +42,7 @@ while True:
     elif k%256  == 32:
         #for my photo capture it's create a name and include the location where I want to save my photo
         img_name = f'photos/Photo{img_counter}.jpg'
-    #Malik abi bunu hic bilgisayara kaydetmeden yapabiliyoruz demistin ama nasil yapacagimi bulamadim
+    #Malik abi you did say you don't need to save your image but I couldn't do otherwise
         cv2.imwrite(img_name, img)
         # img_temp -> temporary image
         img_temp = cv2.imread(img_name)
